@@ -1,0 +1,121 @@
+primary_name: "Rui Melo"
+secondary_name: ""
+navbar_name: "Rui Melo"
+
+positions:
+# - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+#   name: PhD Student at CMU and University of Porto
+- name: PhD Student at CMU and University of Porto
+
+
+email: "rufimelo99@email.com"
+# cv_link: link-to-your-cv-file
+gscholar: ZbzpkEoAAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: rufimelo99
+twitter: Melo1999_  # Do not include the '@' symbol
+# wechat_qrcode: /assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+linkedin: rui--melo
+orcid: 0009-0007-0009-0463
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    Rui Melo is a PhD student at University of Porto, Portugal, researching the intersection of Machine Learning and Software Engineering. He holds an MSc from IST and previously worked as an AI Engineer at a U.S. legal-tech startup. His research focuses on enhancing code generation through adversarial ML and mechanistic interpretability.
+  </p>
+
+portrait_url: /assets/images/photos/Melo.png
+# portrait_caption: >-
+#   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+
+education:
+- name: Carnegie Mellon University
+  logo: /assets/images/badges/CMU.png
+  position: Ph.D. Student
+  date: Aug. 2025 - present
+- name: University of Porto
+  logo: /assets/images/badges/UP.png
+  position: Ph.D. Student
+  date: Sep. 2024 - present
+- name: Instituto Superior Técnico
+  logo: /assets/images/badges/IST.jpeg
+  position: Bologna Master Degree in Information Systems and Computer Engineering
+  date: Sep. 2020 - Jun. 2023
+- name: University of Aveiro
+  logo: /assets/images/badges/UA.jpeg
+  position: Bachelor's degree in Computer Software Engineering
+  date: Sep. 2017 - Aug. 2020
+
+experience:
+- name: Equall
+  logo: /assets/images/badges/Equall.jpeg
+  position: AI Engineer
+  date: May. 2023 - Jul 2024
+- name: INESC-ID 
+  logo: /assets/images/badges/INESC ID.jpeg
+  position: NLP Researcher
+  date: Jan. 2022 - Sep 2023
+- name: Imaginary Cloud
+  logo: /assets/images/badges/Imaginary Cloud.jpeg
+  position: Data Scientist  
+  date: Jun. 2022 - May 2023
+
+awards:
+- name: 2nd Place Aveiro Tech City Hackathon - 4th Challenge
+  date: 2024
+- name: 3rd Place Aveiro Tech City Hackathon - 2nd Challenge
+  date: 2023
+- name: 1st Place Aveiro Tech City Hackathon - 2nd Challenge
+  date: 2022
+- name: 1st Place Hackacity Porto 
+  date: 2022
+
+# Licenses and certifications:
+licenses:
+- name: 2025 Summer School for Generative AI
+  organization: Tsinghua University
+  logo: /assets/images/badges/THU.jpeg
+  date: Jul. 2025
+- name: ELLIS Winter School 2025 on Foundation Models - Unit Amsterdam
+  organization: ELLIS
+  logo: /assets/images/badges/Ellis.jpeg
+  date: Mar. 2025
+- name: Lisbon Machine Learning School – LxMLS 2023
+  organization: Instituto Superior Técnico
+  logo: /assets/images/badges/IST.jpeg
+  date: Jul. 2023
+
+grants:
+- name: High Performance Computing (HPC) Grant
+  organization: Fundação para a Ciência e Tecnologia (FCT)
+  logo: /assets/images/badges/FCT.png
+  date: Sep. 2025 - Aug. 2026
+  # href: 
+  notes: >-
+    Awarded 4048 GPU hours by the Fundação para a Ciência e Tecnologia (FCT) for high-performance computing resources.
+  duration: 1 year
+- name: CMU-Portugal Dual PhD Scholarship
+  organization: CMU-Portugal Program
+  logo: /assets/images/badges/CMU Portugal.png
+  date: Aug. 2025 - Aug. 2030
+  href: https://cmuportugal.org/students/rui-melo/
+  notes: >-
+    Awarded by the CMU-Portugal Program for a dual PhD at Carnegie Mellon University and the University of Porto.
+  duration: 5 years
+- name: Google Cloud Research Credits
+  organization: Google Cloud Platform
+  logo: /assets/images/badges/GCP.png
+  date: Feb. 2025
+  # href: https://cmuportugal.org/students/rui-melo/
+  notes: >-
+    Awarded 1000 USD by Google Cloud Platform
+  # duration: 5 years
+- name: PhD Research Scholarship
+  organization: Center for Responsible AI
+  logo: /assets/images/badges/CRAI.png
+  date: Sep. 2024 - Aug. 2025
+  href: https://sigarra.up.pt/feup/pt/noticias_geral.ver_noticia?p_nr=165454
+  notes: >-
+    Awarded by the Center for Responsible AI at the University of Porto and Fraunhofer AICOS Portugal.
+  duration: 1.5 years
