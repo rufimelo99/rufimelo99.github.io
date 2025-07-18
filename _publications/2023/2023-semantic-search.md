@@ -2,7 +2,7 @@
 title:          "A Semantic Search System for the Supremo Tribunal de Justiça"
 date:           2023-06-06 00:01:00 +0800
 selected:       true
-pub:            "EPIA Conference on Artificial Intelligence)"
+pub:            "EPIA"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
