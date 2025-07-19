@@ -32,7 +32,7 @@
                         <div class="text-profile-position">
                             {% for position in site.data.profile.positions %}
                             {% if position.logo -%}
-                            <img src="{{ position.logo | relative_url }}" alt="Logo" class="inline-badge"/>
+                            <img src="{{ position.logo | relative_url }}" alt="Logo" style="width: 32px;" />
                             {%- endif %}
                             {{ position.name }}<br/>
                             {% endfor %}

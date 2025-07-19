@@ -3,9 +3,9 @@ secondary_name: ""
 navbar_name: "Rui Melo"
 
 positions:
-# - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-#   name: PhD Student at CMU and University of Porto
-- name: PhD Student at CMU and University of Porto
+- logo: /assets/images/badges/CMU.png  # Logo is optional
+  name: PhD Student at CMU and University of Porto
+# - name: PhD Student at CMU and University of Porto
 
 
 email: "rufimelo99@gmail.com"
