@@ -106,11 +106,11 @@ grants:
 - name: Google Cloud Research Credits
   organization: Google Cloud Platform
   logo: /assets/images/badges/GCP.png
-  date: Feb. 2025
-  # href: https://cmuportugal.org/students/rui-melo/
+  date: Feb. 2025 - Jan. 2026
+  # href: 
   notes: >-
     Awarded 1000 USD by Google Cloud Platform
-  # duration: 5 years
+  duration: 1 year
 - name: PhD Research Scholarship
   organization: Center for Responsible AI
   logo: /assets/images/badges/CRAI.png

@@ -1,7 +1,7 @@
 <div class="row mt-3">
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-12">
+            <div class="card-body p-14">
                 <div class="row" data-masonry='{"percentPosition": true }'>
                     {% if site.data.profile.education %}
                     <div class="col-md-6">
@@ -104,17 +104,17 @@
                                         <div class="small d-flex">
                                             <div>{{ item.organization }}</div>
                                             <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
-                                            {% if item.duration %}
-                                                <div class="ml-2">({{ item.duration }})</div>
-                                            {% endif %}
-                                            {% if item.notes %}
-                                                <div class="ml-2">({{ item.notes }})</div>
-                                            {% endif %}
-                                            {% if item.href %}
-                                                <div class="ml-2"><a href="{{ item.href }}" target="_blank">Link</a></div>
-                                            {% endif %}
 
                                         </div>
+                                        <div class="small d-flex">
+                                            <!-- {% if item.href %}
+                                                <div><a href="{{ item.href }}" target="_blank">Link</a></div>
+                                            {% endif %} -->
+                                            {% if item.notes %}
+                                                <div class="mt-auto ml-auto no-break">({{ item.notes }})</div>
+                                            {% endif %} 
+                                        </div>
+
                                     </div>
                                 </li>
                                 {% endfor %}
