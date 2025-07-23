@@ -93,6 +93,12 @@
                             <i class="fab fa-orcid"></i> ORCID
                         </a>
                         {% endif %}
+
+                        {% if site.data.profile.calendly %}
+                        <a class="pr-3 no-break" target="_blank" href="https://calendly.com/{{ site.data.profile.calendly }}">
+                            <i class="fas fa-calendar-alt"></i> Calendly
+                        </a>
+                        {% endif %}
                     </div>
                 </div>
             </div>
