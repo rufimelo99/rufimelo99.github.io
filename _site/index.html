@@ -80,7 +80,7 @@
                         </div>
                         <div class="text-profile-bio mt-3" >
                             <p>
-  Rui Melo is a Software Engineering PhD student at Carnegie Mellon University, USA and University of Porto, Portugal. He researches in the intersection of Machine Learning and Software Engineering. He holds an MSc from IST and previously worked as an AI Engineer at a U.S. legal-tech startup. 
+  Rui Melo is a PhD student at University of Porto, Portugal, researching the intersection of Machine Learning and Software Engineering. He holds an MSc from IST and previously worked as an AI Engineer at a U.S. legal-tech startup. His research focuses on enhancing code generation through adversarial ML and mechanistic interpretability.
 </p>
                         </div>
                         
@@ -489,22 +489,35 @@ document.querySelectorAll(".root-path-text").forEach(function(element){
         
         <div class="media py-1 ">
             
+            <div class="mr-3 text-muted my-1">2026</div>
+            <div class="media-body">
+                
+                <div class="my-1 d-flex">
+                    <div>Symposium on Security in The Age of AI</div>
+                    <div class="ml-auto mt-auto text-muted no-break"><i>Feb 01</i></div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="media py-1 border-top border-gray">
+            
             <div class="mr-3 text-muted my-1">2025</div>
             <div class="media-body">
                 
                 <div class="my-1 d-flex">
                     <div>Tsinghua University Summer School 2025</div>
-                    <div class="ml-auto mt-auto text-muted no-break"><i>Jul 16</i></div>
+                    <div class="ml-auto mt-auto text-muted no-break"><i>Jul 17</i></div>
                 </div>
                 
                 <div class="my-1 d-flex">
                     <div>FSE/ISSTA Joint Doctoral Symposium 2025</div>
-                    <div class="ml-auto mt-auto text-muted no-break"><i>Jun 21</i></div>
+                    <div class="ml-auto mt-auto text-muted no-break"><i>Jun 22</i></div>
                 </div>
                 
                 <div class="my-1 d-flex">
                     <div>Ellis Winter School 2025</div>
-                    <div class="ml-auto mt-auto text-muted no-break"><i>Feb 28</i></div>
+                    <div class="ml-auto mt-auto text-muted no-break"><i>Mar 01</i></div>
                 </div>
                 
             </div>
@@ -528,6 +541,59 @@ document.querySelectorAll(".root-path-text").forEach(function(element){
         
 <div class="d-none d-md-block">
     <div class="row no-gutters border-bottom border-gray">
+        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3"><img data-src="/assets/images/covers/ICST_2026.jpeg" alt="Do Language Models Prefer Vulnerable Code? A Probabilistic Study of Insecure Code Preference" class="lazy w-100 rounded-sm" src="/assets/images/empty_300x200.png"></div>
+        <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+            <h5 class="mt-0 mb-1 font-weight-normal">Do Language Models Prefer Vulnerable Code? A Probabilistic Study of Insecure Code Preference</h5>
+            <p class="mt-0 mb-0 small"><span class="text-body">
+            <strong>Rui Melo</strong>, </span><span class="text-body">
+            Sofia Reis, </span><span class="text-body">
+            Andre Catarino, </span><span class="text-body">
+            Rui Abreu</span></p>
+            <p class="mt-0 mb-0 small"><i>ICST 2026 <span class='badge badge-pill badge-publication badge-success'>A</span></i>Accepted 2026 </p>
+            <p class="mt-0 mb-0 small text-muted">Abstract—Large Language Models (LLMs) are increasingly integrated into software development and testing workflows, offering the promise of automated code generation, test synthesis, and program repair. However, ensuring the security of LLM-generated code remains a critical challenge for software verification and validation, as these models may inadvertently learn and propagate insecure patterns from their training data. In this paper, we present a probabilistic testing framework for evaluating the security alignment of code LLMs, analyzing their internal behavior across three dimensions: fluency (does the code appear natural?), preference (which version is the model more likely to generate?), and confidence (how certain is the model about its choice?). Using Delta-Secommits, a 2,422 real-world vulnerability-patch pairs spanning 25 CWE categories, we conduct the first empirical study of how code LLMs probabilistically favor secure versus insecure code. Our results reveal a significant security misalignment: LLMs exhibit a bias toward insecure code in approximately 92% of cases. Even when secure code is as fluent or confidently predicted, models still prefer the vulnerable version in the vast majority of comparisons. For researchers, our findings extend existing evaluation frameworks by introducing probabilistic security alignment, measuring not only generated outputs, but also the likelihoods that drive them. For tool builders, the implication is clear: AI coding assistants must be designed for and tested against secure defaults, or they risk amplifying vulnerabilities at scale. <a href="/preprints/2026_ICST_preprint.pdf">Preprint PDF</a> <a href="https://huggingface.co/datasets/rufimelo/DeltaSecommits">
+  <img src="assets/images/hugging-face_app.png" alt="Dataset" width="16">
+</a> <a href="https://github.com/rufimelo99/lm-insecure-bias">
+  <img src="assets/images/GitHub_Invertocat_Black_Clearspace.png" alt="Code" width="16">
+</a></p>
+            
+            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                
+            </p>
+
+        </div>
+    </div>
+</div>
+
+<div class="row no-gutters d-md-none border-bottom border-gray   lazy" data-src="/assets/images/covers/ICST_2026.jpeg">
+    <div class="w-100  " style="background-color: rgba(255,255,255,0.9);">
+        <div class="d-flex align-items-start flex-column py-3 px-4">
+            <div class="mb-auto"></div>
+            <div>
+                <h5 class="mt-0 mb-1 font-weight-normal">Do Language Models Prefer Vulnerable Code? A Probabilistic Study of Insecure Code Preference</h5>
+                <p class="mt-0 mb-0 small"><span class="text-body">
+            <strong>Rui Melo</strong>, </span><span class="text-body">
+            Sofia Reis, </span><span class="text-body">
+            Andre Catarino, </span><span class="text-body">
+            Rui Abreu</span></p>
+                <p class="mt-0 mb-0 small"><i>ICST 2026 <span class='badge badge-pill badge-publication badge-success'>A</span></i>Accepted 2026 </p>
+                <p class="mt-0 mb-0 small text-muted">Abstract—Large Language Models (LLMs) are increasingly integrated into software development and testing workflows, offering the promise of automated code generation, test synthesis, and program repair. However, ensuring the security of LLM-generated code remains a critical challenge for software verification and validation, as these models may inadvertently learn and propagate insecure patterns from their training data. In this paper, we present a probabilistic testing framework for evaluating the security alignment of code LLMs, analyzing their internal behavior across three dimensions: fluency (does the code appear natural?), preference (which version is the model more likely to generate?), and confidence (how certain is the model about its choice?). Using Delta-Secommits, a 2,422 real-world vulnerability-patch pairs spanning 25 CWE categories, we conduct the first empirical study of how code LLMs probabilistically favor secure versus insecure code. Our results reveal a significant security misalignment: LLMs exhibit a bias toward insecure code in approximately 92% of cases. Even when secure code is as fluent or confidently predicted, models still prefer the vulnerable version in the vast majority of comparisons. For researchers, our findings extend existing evaluation frameworks by introducing probabilistic security alignment, measuring not only generated outputs, but also the likelihoods that drive them. For tool builders, the implication is clear: AI coding assistants must be designed for and tested against secure defaults, or they risk amplifying vulnerabilities at scale. <a href="/preprints/2026_ICST_preprint.pdf">Preprint PDF</a> <a href="https://huggingface.co/datasets/rufimelo/DeltaSecommits">
+  <img src="assets/images/hugging-face_app.png" alt="Dataset" width="16">
+</a> <a href="https://github.com/rufimelo99/lm-insecure-bias">
+  <img src="assets/images/GitHub_Invertocat_Black_Clearspace.png" alt="Code" width="16">
+</a></p>
+                
+                <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>    
+    
+        
+<div class="d-none d-md-block">
+    <div class="row no-gutters border-bottom border-gray">
         <div class="col-md-3 col-xl-2 mb-md-0 p-md-3"><img data-src="/assets/images/covers/NIPS.png" alt="SaulLM-54B & SaulLM-141B: Scaling Up Domain Adaptation for the Legal Domain" class="lazy w-100 rounded-sm" src="/assets/images/empty_300x200.png"></div>
         <div class="col-md-9 col-xl-10 p-3 pl-md-0">
             <h5 class="mt-0 mb-1 font-weight-normal">SaulLM-54B & SaulLM-141B: Scaling Up Domain Adaptation for the Legal Domain</h5>
@@ -542,7 +608,7 @@ document.querySelectorAll(".root-path-text").forEach(function(element){
             Gabriel Hautreux, </span><span class="text-body">
             Johanne Charpentier, </span><span class="text-body">
             Michael Desa</span></p>
-            <p class="mt-0 mb-0 small"><i>NeurIPS <span class='badge badge-pill badge-publication badge-success'>A*</span></i> 2024 </p>
+            <p class="mt-0 mb-0 small"><i>NeurIPS <span class='badge badge-pill badge-publication badge-success'>A*</span> </i> 2024 </p>
             <p class="mt-0 mb-0 small text-muted">In this paper, we introduce SaulLM-54B and SaulLM-141B, two large language models (LLMs) tailored for the legal sector. These models, which feature architectures of 54 billion and 141 billion parameters, respectively, are based on the Mixtral architecture. The development of SaulLM-54B and SaulLM-141B is guided by large-scale domain adaptation, divided into three strategies: (1) the exploitation of continued pretraining involving a base corpus that includes over 540 billion of legal tokens, (2) the implementation of a specialized legal instruction-following protocol, and (3) the alignment of model outputs with human preferences in legal interpretations. The integration of synthetically generated data in the second and third steps enhances the models' capabilities in interpreting and processing legal texts, effectively reaching state-of-the-art performance and outperforming previous open-source models on LegalBench-Instruct. This work explores the trade-offs involved in domain-specific adaptation at this scale, offering insights that may inform future studies on domain adaptation using strong decoder models. Building upon SaulLM-7B, this study refines the approach to produce an LLM better equipped for legal tasks. We are releasing base, instruct, and aligned versions on top of SaulLM-54B and SaulLM-141B under the MIT License to facilitate reuse and collaborative research.</p>
             
             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
@@ -570,110 +636,8 @@ document.querySelectorAll(".root-path-text").forEach(function(element){
             Gabriel Hautreux, </span><span class="text-body">
             Johanne Charpentier, </span><span class="text-body">
             Michael Desa</span></p>
-                <p class="mt-0 mb-0 small"><i>NeurIPS <span class='badge badge-pill badge-publication badge-success'>A*</span></i> 2024 </p>
+                <p class="mt-0 mb-0 small"><i>NeurIPS <span class='badge badge-pill badge-publication badge-success'>A*</span> </i> 2024 </p>
                 <p class="mt-0 mb-0 small text-muted">In this paper, we introduce SaulLM-54B and SaulLM-141B, two large language models (LLMs) tailored for the legal sector. These models, which feature architectures of 54 billion and 141 billion parameters, respectively, are based on the Mixtral architecture. The development of SaulLM-54B and SaulLM-141B is guided by large-scale domain adaptation, divided into three strategies: (1) the exploitation of continued pretraining involving a base corpus that includes over 540 billion of legal tokens, (2) the implementation of a specialized legal instruction-following protocol, and (3) the alignment of model outputs with human preferences in legal interpretations. The integration of synthetically generated data in the second and third steps enhances the models' capabilities in interpreting and processing legal texts, effectively reaching state-of-the-art performance and outperforming previous open-source models on LegalBench-Instruct. This work explores the trade-offs involved in domain-specific adaptation at this scale, offering insights that may inform future studies on domain adaptation using strong decoder models. Building upon SaulLM-7B, this study refines the approach to produce an LLM better equipped for legal tasks. We are releasing base, instruct, and aligned versions on top of SaulLM-54B and SaulLM-141B under the MIT License to facilitate reuse and collaborative research.</p>
-                
-                <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
-                    
-                </p>
-            </div>
-        </div>
-    </div>
-
-</div>    
-    
-        
-<div class="d-none d-md-block">
-    <div class="row no-gutters border-bottom border-gray">
-        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3"><img data-src="/assets/images/covers/arxiv.png" alt="SaulLM-7B: A pioneering Large Language Model for Law" class="lazy w-100 rounded-sm" src="/assets/images/empty_300x200.png"></div>
-        <div class="col-md-9 col-xl-10 p-3 pl-md-0">
-            <h5 class="mt-0 mb-1 font-weight-normal">SaulLM-7B: A pioneering Large Language Model for Law</h5>
-            <p class="mt-0 mb-0 small"><span class="text-body">
-            Pierre Colombo, </span><span class="text-body">
-            Telmo Pessoa Pires, </span><span class="text-body">
-            Malik Boudiaf, </span><span class="text-body">
-            Dominic Culver, </span><span class="text-body">
-            <strong>Rui Melo</strong>, </span><span class="text-body">
-            Caio Corro, </span><span class="text-body">
-            Andre F. T. Martins, </span><span class="text-body">
-            Fabrizio Esposito, </span><span class="text-body">
-            Vera Lúcia Raposo, </span><span class="text-body">
-            Sofia Morgado, </span><span class="text-body">
-            Michael Desa</span></p>
-            <p class="mt-0 mb-0 small"><i>arXiv</i> 2024 </p>
-            <p class="mt-0 mb-0 small text-muted">In this paper, we introduce SaulLM-7B, a large language model (LLM) tailored for the legal domain. With 7 billion parameters, SaulLM-7B is the first LLM designed explicitly for legal text comprehension and generation. Leveraging the Mistral 7B architecture as its foundation, SaulLM-7B is trained on an English legal corpus of over 30 billion tokens. SaulLM-7B exhibits state-of-the-art proficiency in understanding and processing legal documents. Additionally, we present a novel instructional fine-tuning method that leverages legal datasets to further enhance SaulLM-7B's performance in legal tasks. SaulLM-7B is released under the MIT License.</p>
-            
-            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
-                
-            </p>
-
-        </div>
-    </div>
-</div>
-
-<div class="row no-gutters d-md-none border-bottom border-gray   lazy" data-src="/assets/images/covers/arxiv.png">
-    <div class="w-100  " style="background-color: rgba(255,255,255,0.9);">
-        <div class="d-flex align-items-start flex-column py-3 px-4">
-            <div class="mb-auto"></div>
-            <div>
-                <h5 class="mt-0 mb-1 font-weight-normal">SaulLM-7B: A pioneering Large Language Model for Law</h5>
-                <p class="mt-0 mb-0 small"><span class="text-body">
-            Pierre Colombo, </span><span class="text-body">
-            Telmo Pessoa Pires, </span><span class="text-body">
-            Malik Boudiaf, </span><span class="text-body">
-            Dominic Culver, </span><span class="text-body">
-            <strong>Rui Melo</strong>, </span><span class="text-body">
-            Caio Corro, </span><span class="text-body">
-            Andre F. T. Martins, </span><span class="text-body">
-            Fabrizio Esposito, </span><span class="text-body">
-            Vera Lúcia Raposo, </span><span class="text-body">
-            Sofia Morgado, </span><span class="text-body">
-            Michael Desa</span></p>
-                <p class="mt-0 mb-0 small"><i>arXiv</i> 2024 </p>
-                <p class="mt-0 mb-0 small text-muted">In this paper, we introduce SaulLM-7B, a large language model (LLM) tailored for the legal domain. With 7 billion parameters, SaulLM-7B is the first LLM designed explicitly for legal text comprehension and generation. Leveraging the Mistral 7B architecture as its foundation, SaulLM-7B is trained on an English legal corpus of over 30 billion tokens. SaulLM-7B exhibits state-of-the-art proficiency in understanding and processing legal documents. Additionally, we present a novel instructional fine-tuning method that leverages legal datasets to further enhance SaulLM-7B's performance in legal tasks. SaulLM-7B is released under the MIT License.</p>
-                
-                <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
-                    
-                </p>
-            </div>
-        </div>
-    </div>
-
-</div>    
-    
-        
-<div class="d-none d-md-block">
-    <div class="row no-gutters border-bottom border-gray">
-        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3"><img data-src="/assets/images/covers/EPIA.png" alt="A Semantic Search System for the Supremo Tribunal de Justiça" class="lazy w-100 rounded-sm" src="/assets/images/empty_300x200.png"></div>
-        <div class="col-md-9 col-xl-10 p-3 pl-md-0">
-            <h5 class="mt-0 mb-1 font-weight-normal">A Semantic Search System for the Supremo Tribunal de Justiça</h5>
-            <p class="mt-0 mb-0 small"><span class="text-body">
-            <strong>Rui Melo</strong>, </span><span class="text-body">
-            Pedro A. Santos, </span><span class="text-body">
-            João Dias</span></p>
-            <p class="mt-0 mb-0 small"><i>EPIA</i> 2023 </p>
-            <p class="mt-0 mb-0 small text-muted">Many information retrieval systems use lexical approaches to retrieve information. Such approaches have multiple limitations, and these constraints are exacerbated when tied to specific domains, such as the legal one. Large language models, such as BERT, deeply understand a language and may overcome the limitations of older methodologies, such as BM25. This work investigated and developed a prototype of a Semantic Search System to assist the Supremo Tribunal de Justiça (Portuguese Supreme Court of Justice) in its decision-making process. We built a Semantic Search System that uses specially trained BERT models (Legal-BERTimbau variants) and a Hybrid Search System that incorporates both lexical and semantic techniques by combining the capabilities of BM25 and the potential of Legal-BERTimbau. In this context, we obtained a increase on the discovery metric when compared to BM25 for the first query result. This work also provides information on the most relevant techniques for training a Large Language Model adapted to Portuguese jurisprudence and introduces a new technique of Metadata Knowledge Distillation.</p>
-            
-            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
-                
-            </p>
-
-        </div>
-    </div>
-</div>
-
-<div class="row no-gutters d-md-none border-bottom border-gray   lazy" data-src="/assets/images/covers/EPIA.png">
-    <div class="w-100  " style="background-color: rgba(255,255,255,0.9);">
-        <div class="d-flex align-items-start flex-column py-3 px-4">
-            <div class="mb-auto"></div>
-            <div>
-                <h5 class="mt-0 mb-1 font-weight-normal">A Semantic Search System for the Supremo Tribunal de Justiça</h5>
-                <p class="mt-0 mb-0 small"><span class="text-body">
-            <strong>Rui Melo</strong>, </span><span class="text-body">
-            Pedro A. Santos, </span><span class="text-body">
-            João Dias</span></p>
-                <p class="mt-0 mb-0 small"><i>EPIA</i> 2023 </p>
-                <p class="mt-0 mb-0 small text-muted">Many information retrieval systems use lexical approaches to retrieve information. Such approaches have multiple limitations, and these constraints are exacerbated when tied to specific domains, such as the legal one. Large language models, such as BERT, deeply understand a language and may overcome the limitations of older methodologies, such as BM25. This work investigated and developed a prototype of a Semantic Search System to assist the Supremo Tribunal de Justiça (Portuguese Supreme Court of Justice) in its decision-making process. We built a Semantic Search System that uses specially trained BERT models (Legal-BERTimbau variants) and a Hybrid Search System that incorporates both lexical and semantic techniques by combining the capabilities of BM25 and the potential of Legal-BERTimbau. In this context, we obtained a increase on the discovery metric when compared to BM25 for the first query result. This work also provides information on the most relevant techniques for training a Large Language Model adapted to Portuguese jurisprudence and introduces a new technique of Metadata Knowledge Distillation.</p>
                 
                 <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
                     
@@ -698,7 +662,7 @@ document.querySelectorAll(".root-path-text").forEach(function(element){
         <div class="row my-3">
             <div class="col-6">
                 <div class="text-muted">
-                    <i>Last updated: Jul 2025</i>
+                    <i>Last updated: May 2026</i>
                 </div>
             </div>
             <div class="col-6">
