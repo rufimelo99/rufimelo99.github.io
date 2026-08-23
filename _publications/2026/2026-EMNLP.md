@@ -2,7 +2,7 @@
 title:          "When Models Know but Can't Linearly Say: Relational Encoding Limits Linear Vulnerability Classification in Code LLMs"
 date:           2026-08-23 00:01:00 +0800
 selected:       true
-pub:            "EMNLP 2026 Findings"
+pub:            "EMNLP 2026 Findings <span class='badge badge-pill badge-publication badge-success'>A*</span>"
 pub_post:       'Accepted'
 pub_date:       "2026"
 abstract: >-
