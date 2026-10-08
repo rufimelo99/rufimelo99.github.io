@@ -16,4 +16,5 @@ authors:
   - Corina Pasareanu
 links:
   Preprint: /preprints/2026_EMNLP_When_Models_Know_but_Can_t_Say__Relational_Encoding_Limits_Vulnerability_Classification_in_Code_LLMs.pdf
+  Poster: /preprints/2026_EMNLP_Poster.pdf
 ---
